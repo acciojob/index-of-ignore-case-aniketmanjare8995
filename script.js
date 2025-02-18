@@ -1,5 +1,10 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
+s1 = s1.toLowerCase();
+    s2 = s2.toLowerCase();
+
+    // Use indexOf() to find the first occurrence of subStr in str
+    return str.indexOf(s2);
 }
 
 // Please do not change the code below
